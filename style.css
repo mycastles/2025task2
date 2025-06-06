@@ -230,15 +230,18 @@ h2 {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .main {
         flex-direction: column;
     }
 
-    h3 {
+    .main-text {
+        h3 {
 
-        font-size: 52px;
+            font-size: 52px;
+        }
     }
+
 
     .main-hero {
         width: 100%;
@@ -284,7 +287,7 @@ h2 {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .about {
         flex-direction: column;
     }
@@ -389,7 +392,7 @@ h2 {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .blog-ul {
 
         margin: 0;
@@ -426,14 +429,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 80px;
+    padding: 80px 48px 0px 48px;
 
     div {
         font-size: 32px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .desktop-only {
         display: none;
     }
