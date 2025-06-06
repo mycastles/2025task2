@@ -264,6 +264,7 @@ h2 {
     font-size: 24px;
     margin-top: 4px;
     color: #0027D5;
+
 }
 
 .about-text {
@@ -297,12 +298,12 @@ h2 {
 .blue-tag {
     padding: 6px 12px;
     border-radius: 40px;
-    margin-top: 16px;
     margin-left: 8px;
     background-color: #0027D5;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
+
 }
 
 .search-box {
@@ -353,6 +354,8 @@ h2 {
 .blog-tag {
     font-size: 24px;
     margin-top: 4px;
+    display: flex;
+    justify-content: flex-start;
 
     a {
         color: #0027D5;
@@ -366,6 +369,8 @@ h2 {
     overflow: hidden;
     color: #4b4b4b;
     margin-top: 8px;
+
+
 }
 
 .blog-read {
@@ -380,6 +385,10 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    .blog-ul {
+
+        margin: 0;
+    }
 
     .search-box {
 
